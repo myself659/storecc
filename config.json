@@ -1,0 +1,20 @@
+{
+   "host":"localhost",
+   "port":"4000",
+   "jwt_expiretime": "360000",
+   "channelName":"mychannel",
+   "chaincodeName":"mycc",
+   "chaincodePath":"github.com/example_cc",
+   "chaincodeVersion": "v0",
+   "GOPATH":"../artifacts",
+   "keyValueStore":"/tmp/fabric-client-kvs",
+   "eventWaitTime":"300000",
+   "orderer":"grpcs://localhost:7050",
+   "peers": ["localhost:7051", "localhost:8051"],
+   "users":[
+      {
+         "username":"admin",
+         "secret":"adminpw"
+      }
+   ]
+}

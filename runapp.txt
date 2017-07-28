@@ -1,0 +1,44 @@
+
+Stopping orderer.example.com ... 
+Stopping ca_peerOrg1 ... 
+Stopping ca_peerOrg2 ... 
+[3A[2KStopping orderer.example.com ... [32mdone[0m[3B[2A[2KStopping ca_peerOrg1 ... [32mdone[0m[2B[1A[2KStopping ca_peerOrg2 ... [32mdone[0m[1BRemoving orderer.example.com ... 
+Removing ca_peerOrg1 ... 
+Removing ca_peerOrg2 ... 
+[3A[2KRemoving orderer.example.com ... [32mdone[0m[3B[2A[2KRemoving ca_peerOrg1 ... [32mdone[0m[2B[1A[2KRemoving ca_peerOrg2 ... [32mdone[0m[1BRemoving network artifacts_default
+
+========== No containers available for deletion ==========
+
+
+========== No images available for deletion ===========
+
+Creating network "artifacts_default" with the default driver
+Creating ca_peerOrg2 ... 
+Creating ca_peerOrg1 ... 
+Creating orderer.example.com ... 
+Creating ca_peerOrg1
+Creating ca_peerOrg2
+Creating orderer.example.com
+[1A[2KCreating ca_peerOrg1 ... [32mdone[0m[1B[1A[2KCreating ca_peerOrg2 ... [32mdone[0m[1B[1A[2KCreating orderer.example.com ... [32mdone[0m[1BCreating peer0.org2.example.com ... 
+Creating peer0.org1.example.com ... 
+Creating peer1.org2.example.com ... 
+Creating peer1.org1.example.com ... 
+Creating peer0.org2.example.com
+Creating peer0.org1.example.com
+Creating peer1.org2.example.com
+Creating peer1.org1.example.com
+[1A[2KCreating peer0.org1.example.com ... [32mdone[0m[1B[1A[2KCreating peer1.org1.example.com ... [32mdone[0m[1B[1A[2KCreating peer0.org2.example.com ... [32mdone[0m[1B[1A[2KCreating peer1.org2.example.com ... [32mdone[0m[1B/Users/eric/go/src/github.com/hyperledger/fabric-samples/balance-transfer
+
+
+============== node modules installed already =============
+
+[36m[2017-07-25 11:07:51.485] [DEBUG] Helper - [39m[crypto_ecdsa_aes]: constructor, keySize: 256
+[36m[2017-07-25 11:07:51.489] [DEBUG] Helper - [39m[crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+[36m[2017-07-25 11:07:51.542] [DEBUG] Helper - [39m[utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+[36m[2017-07-25 11:07:51.543] [DEBUG] Helper - [39m[utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+[36m[2017-07-25 11:07:51.552] [DEBUG] Helper - [39m[crypto_ecdsa_aes]: constructor, keySize: 256
+[36m[2017-07-25 11:07:51.552] [DEBUG] Helper - [39m[crypto_ecdsa_aes]: Hash algorithm: SHA2, hash output size: 256
+[36m[2017-07-25 11:07:51.552] [DEBUG] Helper - [39m[utils.CryptoKeyStore]: CryptoKeyStore, constructor - start
+[36m[2017-07-25 11:07:51.552] [DEBUG] Helper - [39m[utils.CryptoKeyStore]: constructor, no super class specified, using config: fabric-client/lib/impl/FileKeyValueStore.js
+[32m[2017-07-25 11:07:51.589] [INFO] SampleWebApp - [39m****************** SERVER STARTED ************************
+[32m[2017-07-25 11:07:51.589] [INFO] SampleWebApp - [39m**************  http://localhost:4000  ******************
